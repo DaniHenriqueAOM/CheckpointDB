@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="56167FB0-DBE9-533D-6A40-05A92FE81550" name="T_PS_EMAIL_PACIENTE">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-05 11:13:10 UTC</createdTime>
+<ownerDesignName>CHECKPOINT</ownerDesignName>
+<engineerTo>
+<item key="47B07A5D-CC5A-2719-8544-0B61CD607607" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CD_PACIENTE" id="7B5305CA-E2F1-67F2-9872-49EAC4CA7D45">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-05 12:02:00 UTC</createdTime>
+<comment><![CDATA[ESTE ATRIBUTO É DESTINADO A GUARDAR O CODIGO DO PACIENTE.]]></comment>
+<commentInRDBMS><![CDATA[ESTE ATRIBUTO É DESTINADO A GUARDAR O CODIGO DO PACIENTE.]]></commentInRDBMS>
+<generatorID>8D066B6F-79D6-98F4-AA12-CFAC5EF9383A</generatorID>
+<ownerDesignName>CHECKPOINT</ownerDesignName>
+<engineerTo>
+<item key="47B07A5D-CC5A-2719-8544-0B61CD607607" value="true"/>
+</engineerTo>
+<referedAttribute>85B80D7E-8DC0-0244-3BC3-4E8507068F4E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EMAIL_PACIENTE" id="EF77C658-8313-7715-B81E-2300A442F78B">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-05 11:23:49 UTC</createdTime>
+<comment><![CDATA[ESTE ATRIBUTO É DESTINADO A GUARDAR O EMAIL DO PACIENTE.]]></comment>
+<commentInRDBMS><![CDATA[ESTE ATRIBUTO É DESTINADO A GUARDAR O EMAIL DO PACIENTE.]]></commentInRDBMS>
+<ownerDesignName>CHECKPOINT</ownerDesignName>
+<engineerTo>
+<item key="47B07A5D-CC5A-2719-8544-0B61CD607607" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="T_PS_PLANO_SAUDE_PACIENTE_2" directorySegmentName="seg_0" id="643A46EC-60D4-B503-9423-8FF7AD70F11B">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-05 12:05:38 UTC</createdTime>
+<ownerDesignName>CHECKPOINT</ownerDesignName>
+<engineerTo>
+<item key="47B07A5D-CC5A-2719-8544-0B61CD607607" value="true"/>
+</engineerTo>
+<sourcePk>23AA75DC-DC49-D0E4-7F91-AA2F46E55006</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E6B802A7-5F66-0150-8E9A-B8941ABCAF89</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>388E35AC-8D73-4ECE-5A07-02E4EDD6488F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

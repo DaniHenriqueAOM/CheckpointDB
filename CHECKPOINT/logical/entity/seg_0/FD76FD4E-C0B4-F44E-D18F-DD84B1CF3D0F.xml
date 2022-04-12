@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FD76FD4E-C0B4-F44E-D18F-DD84B1CF3D0F" name="T_PS_TEL_PACIENTE">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-05 11:10:45 UTC</createdTime>
+<ownerDesignName>CHECKPOINT</ownerDesignName>
+<engineerTo>
+<item key="47B07A5D-CC5A-2719-8544-0B61CD607607" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CD_PACIENTE" id="05EAE8B6-C2F5-9AF7-6F43-C1477667A5CD">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-05 12:03:57 UTC</createdTime>
+<comment><![CDATA[ESTE ATRIBUTO É DESTINADO A GUARDAR O CODIGO DO PACIENTE.]]></comment>
+<commentInRDBMS><![CDATA[ESTE ATRIBUTO É DESTINADO A GUARDAR O CODIGO DO PACIENTE.]]></commentInRDBMS>
+<generatorID>0148146C-656D-7633-231E-8C1B356DCB67</generatorID>
+<ownerDesignName>CHECKPOINT</ownerDesignName>
+<engineerTo>
+<item key="47B07A5D-CC5A-2719-8544-0B61CD607607" value="true"/>
+</engineerTo>
+<referedAttribute>85B80D7E-8DC0-0244-3BC3-4E8507068F4E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DDI" id="D12231D2-2BD9-39EB-2A23-83E5CC0CD4D3">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-05 11:22:32 UTC</createdTime>
+<comment><![CDATA[ESTE ATRIBUTO É DESTINADO A GUARDAR O NÚMERO DO DDI DO PACIENTE.]]></comment>
+<commentInRDBMS><![CDATA[ESTE ATRIBUTO É DESTINADO A GUARDAR O NÚMERO DO DDI DO PACIENTE.]]></commentInRDBMS>
+<ownerDesignName>CHECKPOINT</ownerDesignName>
+<engineerTo>
+<item key="47B07A5D-CC5A-2719-8544-0B61CD607607" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DDD" id="05CBD1D5-8487-C9DE-DE76-A7BF2A621225">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-05 11:22:32 UTC</createdTime>
+<comment><![CDATA[ESTE ATRIBUTO É DESTINADO A GUARDAR O NÚMERO DO DDD DO PACIENTE.]]></comment>
+<commentInRDBMS><![CDATA[ESTE ATRIBUTO É DESTINADO A GUARDAR O NÚMERO DO DDD DO PACIENTE.]]></commentInRDBMS>
+<ownerDesignName>CHECKPOINT</ownerDesignName>
+<engineerTo>
+<item key="47B07A5D-CC5A-2719-8544-0B61CD607607" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NUM_TEL" id="F637CE03-0E1C-A91C-D267-F3568288CE00">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-05 11:22:33 UTC</createdTime>
+<comment><![CDATA[ESTE ATRIBUTO É DESTINADO A GUARDAR O NÚMERO DO TELEFONE DO PACIENTE.]]></comment>
+<commentInRDBMS><![CDATA[ESTE ATRIBUTO É DESTINADO A GUARDAR O NÚMERO DO TELEFONE DO PACIENTE.]]></commentInRDBMS>
+<ownerDesignName>CHECKPOINT</ownerDesignName>
+<engineerTo>
+<item key="47B07A5D-CC5A-2719-8544-0B61CD607607" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9FBADFC2-14C4-4B3F-5C85-AF7AEA56CE0C" name="T_PS_TEL_PACIENTE PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-05 12:03:57 UTC</createdTime>
+<ownerDesignName>CHECKPOINT</ownerDesignName>
+<engineerTo>
+<item key="47B07A5D-CC5A-2719-8544-0B61CD607607" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>05EAE8B6-C2F5-9AF7-6F43-C1477667A5CD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

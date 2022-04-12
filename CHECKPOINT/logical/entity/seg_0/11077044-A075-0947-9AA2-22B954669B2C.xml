@@ -1,0 +1,199 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="11077044-A075-0947-9AA2-22B954669B2C" name="T_PS_PACIENTE">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-05 11:10:06 UTC</createdTime>
+<ownerDesignName>CHECKPOINT</ownerDesignName>
+<engineerTo>
+<item key="47B07A5D-CC5A-2719-8544-0B61CD607607" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CD_PACIENTE" id="85B80D7E-8DC0-0244-3BC3-4E8507068F4E">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-05 11:15:12 UTC</createdTime>
+<comment><![CDATA[ESTE ATRIBUTO É DESTINADO A GUARDAR O CÓDIGO DE CADASTRO DO PACIENTE..]]></comment>
+<commentInRDBMS><![CDATA[ESTE ATRIBUTO É DESTINADO A GUARDAR O CÓDIGO DE CADASTRO DO PACIENTE..]]></commentInRDBMS>
+<ownerDesignName>CHECKPOINT</ownerDesignName>
+<engineerTo>
+<item key="47B07A5D-CC5A-2719-8544-0B61CD607607" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_PACIENTE" id="6CC6731F-D83B-FB99-884F-EFAAC279A4B4">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-05 11:15:12 UTC</createdTime>
+<comment><![CDATA[ESTE ATRIBUTO É DESTINADO A GUARDAR O NOME DO PACIENTE.]]></comment>
+<commentInRDBMS><![CDATA[ESTE ATRIBUTO É DESTINADO A GUARDAR O NOME DO PACIENTE.]]></commentInRDBMS>
+<notes><![CDATA[ESTE ATRIBUTO É DESTINADO A GUARDAR O NOME DO PACIENTE.]]></notes>
+<ownerDesignName>CHECKPOINT</ownerDesignName>
+<engineerTo>
+<item key="47B07A5D-CC5A-2719-8544-0B61CD607607" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_CPF" id="1B096C43-4058-8DB2-4616-D4FC861FAF84">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-05 11:15:12 UTC</createdTime>
+<comment><![CDATA[ESTE ATRIBUTO É DESTINADO A GUARDAR O NÚEMRO DO CPF DO PACIENTE.]]></comment>
+<commentInRDBMS><![CDATA[ESTE ATRIBUTO É DESTINADO A GUARDAR O NÚEMRO DO CPF DO PACIENTE.]]></commentInRDBMS>
+<ownerDesignName>CHECKPOINT</ownerDesignName>
+<engineerTo>
+<item key="47B07A5D-CC5A-2719-8544-0B61CD607607" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_RG" id="2EE9F313-5FDE-F2C2-808D-5987A2AAEBAF">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-05 11:15:13 UTC</createdTime>
+<comment><![CDATA[ESTE ATRIBUTO É DESTINADO A GUARDAR O NÚMERO DO RG DO PACIENTE.]]></comment>
+<commentInRDBMS><![CDATA[ESTE ATRIBUTO É DESTINADO A GUARDAR O NÚMERO DO RG DO PACIENTE.]]></commentInRDBMS>
+<ownerDesignName>CHECKPOINT</ownerDesignName>
+<engineerTo>
+<item key="47B07A5D-CC5A-2719-8544-0B61CD607607" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_NASCIMENTO" id="AF5A2134-971F-98E8-5DF2-E9709FD99D45">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-05 11:15:13 UTC</createdTime>
+<comment><![CDATA[ESTE ATRIBUTO É DESTINADO A GUARDAR A DATA DE NASCIMENTO DO PACIENTE.]]></comment>
+<commentInRDBMS><![CDATA[ESTE ATRIBUTO É DESTINADO A GUARDAR A DATA DE NASCIMENTO DO PACIENTE.]]></commentInRDBMS>
+<ownerDesignName>CHECKPOINT</ownerDesignName>
+<engineerTo>
+<item key="47B07A5D-CC5A-2719-8544-0B61CD607607" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TP_SEXO" id="7E27B8BD-CEFE-9B5A-3DE4-7FDF52BA8A76">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-05 11:15:13 UTC</createdTime>
+<comment><![CDATA[ESTE ATRIBUTO É DESTINADO A GUARDAR O SEXO DO PACIENTE.]]></comment>
+<commentInRDBMS><![CDATA[ESTE ATRIBUTO É DESTINADO A GUARDAR O SEXO DO PACIENTE.]]></commentInRDBMS>
+<ownerDesignName>CHECKPOINT</ownerDesignName>
+<engineerTo>
+<item key="47B07A5D-CC5A-2719-8544-0B61CD607607" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TP_ESCOLARIDADE" id="1E037FD7-58D5-CB2A-59CB-725D0250185B">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-05 11:15:14 UTC</createdTime>
+<comment><![CDATA[ESTE ATRIBUTO É DESTINADO A GUARDAR A ESCOLARIDADE DO PACIENTE.]]></comment>
+<commentInRDBMS><![CDATA[ESTE ATRIBUTO É DESTINADO A GUARDAR A ESCOLARIDADE DO PACIENTE.]]></commentInRDBMS>
+<ownerDesignName>CHECKPOINT</ownerDesignName>
+<engineerTo>
+<item key="47B07A5D-CC5A-2719-8544-0B61CD607607" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ES_CIVIL" id="CC07A108-6DAE-1B4A-81ED-A671DE86FDA6">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-05 11:15:14 UTC</createdTime>
+<comment><![CDATA[ESTE ATRIBUTO É DESTINADO A GUARDAR O ESTADO CIVIL DO PACIENTE.]]></comment>
+<commentInRDBMS><![CDATA[ESTE ATRIBUTO É DESTINADO A GUARDAR O ESTADO CIVIL DO PACIENTE.]]></commentInRDBMS>
+<ownerDesignName>CHECKPOINT</ownerDesignName>
+<engineerTo>
+<item key="47B07A5D-CC5A-2719-8544-0B61CD607607" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GP_SANGUE" id="55E3C983-FF57-5749-EE84-DA80776436BC">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-05 11:15:14 UTC</createdTime>
+<comment><![CDATA[ESTE ATRIBUTO É DESTINADO A GUARDAR O GRUPO SANGUÍNEO DO PACIENTE.]]></comment>
+<commentInRDBMS><![CDATA[ESTE ATRIBUTO É DESTINADO A GUARDAR O GRUPO SANGUÍNEO DO PACIENTE.]]></commentInRDBMS>
+<ownerDesignName>CHECKPOINT</ownerDesignName>
+<engineerTo>
+<item key="47B07A5D-CC5A-2719-8544-0B61CD607607" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_ALT" id="34E831E5-FE19-8A28-2F10-7E280962D894">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-05 11:15:14 UTC</createdTime>
+<comment><![CDATA[ESTE ATRIBUTO É DESTINADO A GUARDAR A ALTURA DO PACIENTE.]]></comment>
+<commentInRDBMS><![CDATA[ESTE ATRIBUTO É DESTINADO A GUARDAR A ALTURA DO PACIENTE.]]></commentInRDBMS>
+<ownerDesignName>CHECKPOINT</ownerDesignName>
+<engineerTo>
+<item key="47B07A5D-CC5A-2719-8544-0B61CD607607" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,3,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_PESO" id="1A7CF96F-3983-D4FE-0A5E-707D83ADA956">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-05 11:15:15 UTC</createdTime>
+<comment><![CDATA[ESTE ATRIBUTO É DESTINADO A GUARDAR O PESO DO PACIENTE.]]></comment>
+<commentInRDBMS><![CDATA[ESTE ATRIBUTO É DESTINADO A GUARDAR O PESO DO PACIENTE.]]></commentInRDBMS>
+<ownerDesignName>CHECKPOINT</ownerDesignName>
+<engineerTo>
+<item key="47B07A5D-CC5A-2719-8544-0B61CD607607" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1E9CEF47-765F-D565-B68F-63C7EE7AE965" name="T_PS_PACIENTE PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-05 11:21:05 UTC</createdTime>
+<ownerDesignName>CHECKPOINT</ownerDesignName>
+<engineerTo>
+<item key="47B07A5D-CC5A-2719-8544-0B61CD607607" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>85B80D7E-8DC0-0244-3BC3-4E8507068F4E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

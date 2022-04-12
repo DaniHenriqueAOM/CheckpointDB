@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E6B802A7-5F66-0150-8E9A-B8941ABCAF89" name="T_PS_PLANO_SAUDE">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-05 11:14:28 UTC</createdTime>
+<ownerDesignName>CHECKPOINT</ownerDesignName>
+<engineerTo>
+<item key="47B07A5D-CC5A-2719-8544-0B61CD607607" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CD_PLANO_SAUDE" id="2C303973-C68E-B694-8076-AF37F05ABD82">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-05 11:53:03 UTC</createdTime>
+<comment><![CDATA[ESTE ATRIBUTO É DESTINADO A GUARDAR O CÓDIGO DO PLANO DE SAÚDE.]]></comment>
+<commentInRDBMS><![CDATA[ESTE ATRIBUTO É DESTINADO A GUARDAR O CÓDIGO DO PLANO DE SAÚDE.]]></commentInRDBMS>
+<ownerDesignName>CHECKPOINT</ownerDesignName>
+<engineerTo>
+<item key="47B07A5D-CC5A-2719-8544-0B61CD607607" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RZ_SOCIAL" id="E8D578B8-FF7D-94F2-0D6A-700D7EB76F50">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-05 11:33:41 UTC</createdTime>
+<comment><![CDATA[ESTE ATRIBUTO É DESTINADO A GUARDAR A RAZÃO SOCIAL DO PLANO DE SAUDE.]]></comment>
+<commentInRDBMS><![CDATA[ESTE ATRIBUTO É DESTINADO A GUARDAR A RAZÃO SOCIAL DO PLANO DE SAUDE.]]></commentInRDBMS>
+<ownerDesignName>CHECKPOINT</ownerDesignName>
+<engineerTo>
+<item key="47B07A5D-CC5A-2719-8544-0B61CD607607" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_FAN" id="0F55A128-72EC-A627-AB9E-9042EB8D6883">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-05 11:30:54 UTC</createdTime>
+<comment><![CDATA[ESTE ATRIBUTO É DESTINADO A GUARDAR O NOME FANTASIA DO PLANO DE SAUDE.]]></comment>
+<commentInRDBMS><![CDATA[ESTE ATRIBUTO É DESTINADO A GUARDAR O NOME FANTASIA DO PLANO DE SAUDE.]]></commentInRDBMS>
+<ownerDesignName>CHECKPOINT</ownerDesignName>
+<engineerTo>
+<item key="47B07A5D-CC5A-2719-8544-0B61CD607607" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_CNPJ" id="0ABB9B10-02B3-A56B-BB37-CE8CF8A253FA">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-05 11:33:44 UTC</createdTime>
+<comment><![CDATA[ESTE ATRIBUTO É DESTINADO A GUARDAR O CNPJ  DO PLANO DE SAUDE.]]></comment>
+<commentInRDBMS><![CDATA[ESTE ATRIBUTO É DESTINADO A GUARDAR O CNPJ  DO PLANO DE SAUDE.]]></commentInRDBMS>
+<ownerDesignName>CHECKPOINT</ownerDesignName>
+<engineerTo>
+<item key="47B07A5D-CC5A-2719-8544-0B61CD607607" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CONTATO" id="1690A0C9-019F-01D5-7CD5-B9D49C413F86">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-05 11:33:47 UTC</createdTime>
+<comment><![CDATA[ESTE ATRIBUTO É DESTINADO A GUARDAR O CONTATO DO PLANO DE SAUDE.]]></comment>
+<commentInRDBMS><![CDATA[ESTE ATRIBUTO É DESTINADO A GUARDAR O CONTATO DO PLANO DE SAUDE.]]></commentInRDBMS>
+<ownerDesignName>CHECKPOINT</ownerDesignName>
+<engineerTo>
+<item key="47B07A5D-CC5A-2719-8544-0B61CD607607" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TEL" id="13BEE83E-37C8-1F1C-39BB-72541062F400">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-05 11:33:47 UTC</createdTime>
+<comment><![CDATA[ESTE ATRIBUTO É DESTINADO A GUARDAR O TELEFONE DO PLANO DE SAUDE.]]></comment>
+<commentInRDBMS><![CDATA[ESTE ATRIBUTO É DESTINADO A GUARDAR O TELEFONE DO PLANO DE SAUDE.]]></commentInRDBMS>
+<ownerDesignName>CHECKPOINT</ownerDesignName>
+<engineerTo>
+<item key="47B07A5D-CC5A-2719-8544-0B61CD607607" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="23AA75DC-DC49-D0E4-7F91-AA2F46E55006" name="T_PS_PLANO_SAUDE PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-05 11:34:48 UTC</createdTime>
+<ownerDesignName>CHECKPOINT</ownerDesignName>
+<engineerTo>
+<item key="47B07A5D-CC5A-2719-8544-0B61CD607607" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2C303973-C68E-B694-8076-AF37F05ABD82</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

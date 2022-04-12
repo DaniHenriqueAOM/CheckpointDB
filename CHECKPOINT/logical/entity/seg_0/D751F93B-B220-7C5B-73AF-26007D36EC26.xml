@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D751F93B-B220-7C5B-73AF-26007D36EC26" name="T_PS_CONTATO_EMERGENCIA">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-05 11:12:06 UTC</createdTime>
+<ownerDesignName>CHECKPOINT</ownerDesignName>
+<engineerTo>
+<item key="47B07A5D-CC5A-2719-8544-0B61CD607607" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CD_PACIENTE" id="D978CF6B-C73C-4989-3095-52F6C91C94A8">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-05 12:03:08 UTC</createdTime>
+<comment><![CDATA[ESTE ATRIBUTO É DESTINADO A GUARDAR O CODIGO DO PACIENTE.]]></comment>
+<commentInRDBMS><![CDATA[ESTE ATRIBUTO É DESTINADO A GUARDAR O CODIGO DO PACIENTE.]]></commentInRDBMS>
+<generatorID>19DB1D73-1E53-B974-ED84-15259670F81D</generatorID>
+<ownerDesignName>CHECKPOINT</ownerDesignName>
+<engineerTo>
+<item key="47B07A5D-CC5A-2719-8544-0B61CD607607" value="true"/>
+</engineerTo>
+<referedAttribute>85B80D7E-8DC0-0244-3BC3-4E8507068F4E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CD_CONTATO_EMERGENCIA" id="59032FA8-4D8F-3301-36DD-CF2CFF75A434">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-05 11:50:21 UTC</createdTime>
+<comment><![CDATA[ESTE ATRIBUTO É DESTINADO A GUARDAR O CÓDIGO DE CONTATO DE EMERGENCIA DO PACIENTE.]]></comment>
+<commentInRDBMS><![CDATA[ESTE ATRIBUTO É DESTINADO A GUARDAR O CÓDIGO DE CONTATO DE EMERGENCIA DO PACIENTE.]]></commentInRDBMS>
+<ownerDesignName>CHECKPOINT</ownerDesignName>
+<engineerTo>
+<item key="47B07A5D-CC5A-2719-8544-0B61CD607607" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_CONT_EMERGENCIA" id="36AA2937-5051-7EE6-8CBE-84F5136E5CB6">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-05 11:24:38 UTC</createdTime>
+<comment><![CDATA[ESTE ATRIBUTO É DESTINADO A GUARDAR O NOME DA PESSOA EM CASO DE EMERGENCIA.]]></comment>
+<commentInRDBMS><![CDATA[ESTE ATRIBUTO É DESTINADO A GUARDAR O NOME DA PESSOA EM CASO DE EMERGENCIA.]]></commentInRDBMS>
+<ownerDesignName>CHECKPOINT</ownerDesignName>
+<engineerTo>
+<item key="47B07A5D-CC5A-2719-8544-0B61CD607607" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_TEL" id="C8E7B840-79FF-97D0-C8E4-90E9D241E9AB">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-05 11:24:38 UTC</createdTime>
+<comment><![CDATA[ESTE ATRIBUTO É DESTINADO A GUARDAR O NÚMERO PARA CASO DE EMERGENCIA.]]></comment>
+<commentInRDBMS><![CDATA[ESTE ATRIBUTO É DESTINADO A GUARDAR O NÚMERO PARA CASO DE EMERGENCIA.]]></commentInRDBMS>
+<ownerDesignName>CHECKPOINT</ownerDesignName>
+<engineerTo>
+<item key="47B07A5D-CC5A-2719-8544-0B61CD607607" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TP_CONTATO" id="F222D820-4A50-36ED-B8A6-4C28E8F7B79B">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-05 11:24:53 UTC</createdTime>
+<comment><![CDATA[ESTE ATRIBUTO É DESTINADO A GUARDAR O TIPO DE CONTATO  EM CASO DE EMERGENCIA (MÃE, PAI, IRMÃO(Ã)...).]]></comment>
+<commentInRDBMS><![CDATA[ESTE ATRIBUTO É DESTINADO A GUARDAR O TIPO DE CONTATO  EM CASO DE EMERGENCIA (MÃE, PAI, IRMÃO(Ã)...).]]></commentInRDBMS>
+<ownerDesignName>CHECKPOINT</ownerDesignName>
+<engineerTo>
+<item key="47B07A5D-CC5A-2719-8544-0B61CD607607" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EDF053BD-9B63-CD37-1914-849E74C2C78B" name="T_PS_CONTATO_EMERGENCIA PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-05 11:25:23 UTC</createdTime>
+<ownerDesignName>CHECKPOINT</ownerDesignName>
+<engineerTo>
+<item key="47B07A5D-CC5A-2719-8544-0B61CD607607" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>59032FA8-4D8F-3301-36DD-CF2CFF75A434</attributeRef>
+<attributeRef>D978CF6B-C73C-4989-3095-52F6C91C94A8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

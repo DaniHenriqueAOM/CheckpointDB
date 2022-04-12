@@ -1,0 +1,5 @@
+Nota: 9,7
+------------
+No email  do paciente é necessário identificar quando  está ativo ou inativo.
+
+O modelo de dados ficou bom, parabéns!

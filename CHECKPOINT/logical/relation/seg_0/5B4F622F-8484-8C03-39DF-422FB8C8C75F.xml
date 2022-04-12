@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="T_PS_PACIENTE_ENDERECO" directorySegmentName="seg_0" id="5B4F622F-8484-8C03-39DF-422FB8C8C75F">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-05 12:02:40 UTC</createdTime>
+<ownerDesignName>CHECKPOINT</ownerDesignName>
+<engineerTo>
+<item key="47B07A5D-CC5A-2719-8544-0B61CD607607" value="true"/>
+</engineerTo>
+<sourcePk>1E9CEF47-765F-D565-B68F-63C7EE7AE965</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>11077044-A075-0947-9AA2-22B954669B2C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D0D2A6CE-5ED5-9E9D-EF58-83011F87E056</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
